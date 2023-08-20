@@ -1,0 +1,11 @@
+<div class="container">
+	<ng-container *ngFor="let item of editions">
+		<a [routerLink]="item.id.toString()">
+			<mat-card class="my-4 h-40 bg-gradient-to-r from-indigo-500 to-indigo-950">
+				<mat-card-content class="w-full h-full d-flex justify-center items-center">
+					<h3 class="text-white">Edición: {{item.name}}</h3>
+				</mat-card-content>
+			</mat-card>
+		</a>
+	</ng-container>
+</div>

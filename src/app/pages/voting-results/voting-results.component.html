@@ -1,0 +1,13 @@
+<div class="container">
+	<h1>Peluca de Oro (2022)</h1>
+	<ng-container *ngFor="let item of nominees">
+		<mat-card class="w-full my-4 border-b-2 border-indigo-500" *ngIf="item.award">
+			<mat-card-content class="d-flex justify-between items-center">
+				<app-nominated-preview [nominated]="item" [showAward]="true"></app-nominated-preview>
+				<div class="award-icon">
+					<img src="/assets/images/{{item.award.id}}.png" alt="Peluca de oro">
+				</div>
+			</mat-card-content>
+		</mat-card>
+	</ng-container>
+</div>

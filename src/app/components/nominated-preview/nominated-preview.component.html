@@ -1,0 +1,11 @@
+<div class="d-flex align-items-center">
+	<div class="avatar">
+		<img src="assets/images/avatar.png" alt="">
+	</div>
+	<div class="d-flex flex-column">
+		<span class="nominated-name">{{nominated.fullName}}</span>
+		<ng-container *ngIf="nominated.award && showAward">
+			<span class="nominated-award">{{nominated.award.description}}</span>
+		</ng-container>
+	</div>
+</div>

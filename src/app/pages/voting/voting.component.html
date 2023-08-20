@@ -1,0 +1,31 @@
+<div class="container">
+	<ng-container *ngIf="!edition.isClosed">
+		<h1>Peluca de Oro (2023)</h1>
+		<ng-container *ngIf="!hasVoted">
+			<h3>Nominados</h3>
+			<div class="mb-6">
+				<mat-radio-group class="w-full" [(ngModel)]="votedId">
+					<div *ngFor="let item of edition.nominees">
+						<mat-card class="w-full my-4 border-b-2 border-indigo-500">
+							<mat-card-content>
+								<mat-radio-button class="nominee-button w-full" [value]="item.id">
+									{{item.fullName}}
+								</mat-radio-button>
+							</mat-card-content>
+						</mat-card>
+					</div>
+				</mat-radio-group>
+			</div>
+			<button mat-raised-button class="w-full" (click)="vote()">
+				Votar
+			</button>
+		</ng-container>
+		<ng-container *ngIf="hasVoted">
+			<h3 class="text-center">¡Gacias por tu voto!</h3>
+			<p class="text-center">La fecha de premiación está por definirse.</p>
+		</ng-container>
+	</ng-container>
+	<ng-container *ngIf="edition.isClosed">
+		<app-voting-results [nominees]="edition.nominees"></app-voting-results>
+	</ng-container>
+</div>

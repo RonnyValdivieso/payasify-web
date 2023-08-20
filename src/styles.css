@@ -1,1 +1,71 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .mat-card-content.d-flex {
+		display: flex;
+	}
+}
+
+html, body { height: 100%; }
+body {
+	margin: 0;
+	font-family: Roboto, "Helvetica Neue", sans-serif;
+	color: #2C2738;
+}
+
+/* Table */
+table {
+  width: 100%;
+}
+table thead {
+	display: none;
+}
+.mat-row .mat-cell {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+	padding: 10px 0;
+}
+td.mat-cell:first-of-type {
+	padding-left: 0 !important;
+}
+td.mat-cell:last-of-type {
+	padding-right: 0 !important;
+}
+
+/* Titles */
+.mat-typography h1,
+.mat-typography h2,
+.mat-typography h3,
+.mat-typography h4,
+.mat-typography h5,
+.mat-typography h6 {
+	font-weight: 500;
+}
+
+.mat-typography h3 {
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.align-left {
+	text-align: right;
+}
+.d-flex {
+	display: flex;
+}
+.flex-column {
+	flex-direction: column;
+}
+.align-items-center {
+	align-items: center;
+}
+
+/* buttons */
+.mat-raised-button {
+	font-weight: 400;
+	background-color: #14A38B;
+	color: #fff;
+}

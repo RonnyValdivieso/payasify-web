@@ -1,0 +1,174 @@
+{
+	"nominees": [
+		{
+			"id": "a2c2a3-a2a2a12a-a23a2a31",
+			"fullName": "Jonathan Larrea",
+			"votes": 5,
+			"award": {
+				"id": "gold",
+				"description": "Peluca de oro"
+			}
+		},
+		{
+			"id": "b2c2b3-b2b2b12b-b23b2b31",
+			"fullName": "Kevin Malats",
+			"votes": 3,
+			"award": {
+				"id": "silver",
+				"description": "Peluca de plata"
+			}
+		},
+		{
+			"id": "c2c2c3-c2c2c12c-c23c2c31",
+			"fullName": "Freddy Rada",
+			"votes": 2,
+			"award": {
+				"id": "bronze",
+				"description": "Peluca de bronce"
+			}
+		},
+		{
+			"id": "d2c2d3-d2d2d12d-d23d2d31",
+			"fullName": "Kevin Santacruz",
+			"votes": 1,
+			"award": null
+		},
+		{
+			"id": "e2c2e3-e2e2e12e-e23e2e31",
+			"fullName": "Josty Mayorga",
+			"votes": 1,
+			"award": null
+		}
+	],
+	"editions": [
+		{
+			"id": 1,
+			"name": "2021",
+			"isClosed": true,
+			"nominees": [
+				{
+					"id": "a2c2a3-a2a2a12a-a23a2a31",
+					"fullName": "Jonathan Larrea",
+					"votes": 5,
+					"award": {
+						"id": "gold",
+						"description": "Peluca de oro"
+					}
+				},
+				{
+					"id": "b2c2b3-b2b2b12b-b23b2b31",
+					"fullName": "Kevin Malats",
+					"votes": 3,
+					"award": {
+						"id": "silver",
+						"description": "Peluca de plata"
+					}
+				},
+				{
+					"id": "c2c2c3-c2c2c12c-c23c2c31",
+					"fullName": "Freddy Rada",
+					"votes": 2,
+					"award": {
+						"id": "bronze",
+						"description": "Peluca de bronce"
+					}
+				},
+				{
+					"id": "d2c2d3-d2d2d12d-d23d2d31",
+					"fullName": "Kevin Santacruz",
+					"votes": 1,
+					"award": null
+				},
+				{
+					"id": "e2c2e3-e2e2e12e-e23e2e31",
+					"fullName": "Josty Mayorga",
+					"votes": 1,
+					"award": null
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "2022",
+			"isClosed": true,
+			"nominees": [
+				{
+					"id": "a2c2a3-a2a2a12a-a23a2a31",
+					"fullName": "Josty Mayorga",
+					"votes": 5,
+					"award": {
+						"id": "gold",
+						"description": "Peluca de oro"
+					}
+				},
+				{
+					"id": "b2c2b3-b2b2b12b-b23b2b31",
+					"fullName": "Kevin Malats",
+					"votes": 3,
+					"award": {
+						"id": "silver",
+						"description": "Peluca de plata"
+					}
+				},
+				{
+					"id": "c2c2c3-c2c2c12c-c23c2c31",
+					"fullName": "Freddy Rada",
+					"votes": 2,
+					"award": {
+						"id": "bronze",
+						"description": "Peluca de bronce"
+					}
+				},
+				{
+					"id": "d2c2d3-d2d2d12d-d23d2d31",
+					"fullName": "Kevin Santacruz",
+					"votes": 1,
+					"award": null
+				},
+				{
+					"id": "e2c2e3-e2e2e12e-e23e2e31",
+					"fullName": "Jonathan Larrea",
+					"votes": 1,
+					"award": null
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name": "2023",
+			"isClosed": false,
+			"nominees": [
+				{
+					"id": "a2c2a3-a2a2a12a-a23a2a31",
+					"fullName": "Jonathan Larrea",
+					"votes": 0,
+					"award": null
+				},
+				{
+					"id": "b2c2b3-b2b2b12b-b23b2b31",
+					"fullName": "Kevin Malats",
+					"votes": 0,
+					"award": null
+				},
+				{
+					"id": "c2c2c3-c2c2c12c-c23c2c31",
+					"fullName": "Freddy Rada",
+					"votes": 0,
+					"award": null
+				},
+				{
+					"id": "d2c2d3-d2d2d12d-d23d2d31",
+					"fullName": "Kevin Santacruz",
+					"votes": 0,
+					"award": null
+				},
+				{
+					"id": "e2c2e3-e2e2e12e-e23e2e31",
+					"fullName": "Josty Mayorga",
+					"votes": 1,
+					"award": null
+				}
+			]
+		}
+	]
+}

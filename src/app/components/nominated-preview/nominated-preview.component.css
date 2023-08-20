@@ -1,0 +1,15 @@
+.avatar img {
+	height: 56px;
+	width: 56px;
+	background-color: #756F86;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.nominated-name {
+	font-size: 16px;
+	line-height: 22px;
+}
+.nominated-award {
+	font-size: 12px;
+	line-height: 18px;
+}
